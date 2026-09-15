@@ -55,8 +55,3 @@ Cell outputs are saved in each notebook, so results are visible without re-runni
 ## Environment
 
 Developed and run on Google Colab. TensorFlow/Keras (ResNet50, EfficientNetB0, ConvNeXtTiny), PyTorch + `timm` (ViT-B16), scikit-learn, OpenCV.
-
-## Status / Next Steps
-
-- Re-train all four architectures on the deduplicated dataset for final, corrected results.
-- Extend explainability to ViT-B16 (attention-based visualization, since Grad-CAM does not directly apply to transformer architectures without convolutional layers).
